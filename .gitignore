@@ -1,0 +1,82 @@
+# ========================================
+# Peripheral Verification Project .gitignore
+# ========================================
+
+# ============ Cloned Reference Repos ============
+# These are external repos cloned for reference/VIPs
+# Don't track them in our main repo
+cocotbext-axi/
+cocotbext-uart/
+c-class/
+devices/
+
+# ============ Cocotb Generated Files ============
+# Test artifacts
+results.xml
+sim_build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ============ Waveform Files ============
+# These can get large, don't commit
+*.vcd
+*.fst
+*.fsdb
+*.shm
+*.trn
+*.dsn
+dump.vcd
+*.log
+
+# ============ Simulator Files ============
+# Icarus Verilog
+*.vvp
+
+# Verilator
+obj_dir/
+*.d
+*.o
+
+# ModelSim/Questa
+work/
+transcript
+vsim.wlf
+*.wlf
+modelsim.ini
+
+# VCS
+csrc/
+simv
+simv.daidir/
+ucli.key
+*.vpd
+
+# Xcelium
+INCA_libs/
+xcelium.d/
+*.history
+*.key
+
+# ============ Coverage Files ============
+coverage.dat
+*.cov
+
+# ============ OS Files ============
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============ IDE Files ============
+.vscode/
+.idea/
+*.sublime-*
+
+# ============ Temporary Files ============
+*.tmp
+*.bak
+*.orig
