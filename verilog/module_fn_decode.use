@@ -1,0 +1,13 @@
+module_fn_decode_immediate
+module_fn_decode_fn
+module_fn_decode_rs3
+module_fn_decode_rs1
+module_fn_decode_rs2
+module_fn_decode_rd
+module_fn_decode_trapcause
+module_fn_decode_insttype
+module_fn_decode_mem_access
+module_fn_decode_rdtype
+module_fn_decode_rs1type
+module_fn_decode_rs2type
+module_fn_decode_rs3type

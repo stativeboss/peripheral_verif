@@ -1,0 +1,6 @@
+mk_debug
+MakeReset0
+mkjtagdtm
+mkSoc
+SyncFIFO1
+ResetEither
